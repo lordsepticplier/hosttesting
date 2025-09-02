@@ -11,7 +11,7 @@ export default function HomeScreen() {
         alignItems:'center',
         backgroundColor:'lightgrey'
     }}>
-      <Text>Hello</Text>
+      <Text>Hllo</Text>
       <TouchableOpacity onPress={()=>{router.push('home/tours')}}>
         <Text>view tours</Text>
       </TouchableOpacity>
