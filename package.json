@@ -2,6 +2,7 @@
   "name": "week5",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "homepage": "https://Lordsepticplier.github.io/hosttesting",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -49,6 +50,5 @@
     "gh-pages": "^6.3.0",
     "typescript": "~5.8.3"
   },
-  "private": true,
-   "homepage": "https://Lordsepticplier.github.io/hosttesting"
+  "private": true
 }
