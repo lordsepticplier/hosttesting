@@ -13,8 +13,7 @@ export default function tours() {
       <Text>select tours</Text>
       {
         tours.map(places=>(
-            <TouchableOpacity
-            onPress={()=>{
+            <TouchableOpacity onPress={()=>{
                 router.push({pathname:'/home/Detail', params:{tour:places}});
                 }}>
                 <Text>{places}</Text>
