@@ -1,8 +1,9 @@
-import { router } from 'expo-router'
-import { Text, TouchableOpacity, View } from 'react-native'
+import { useRouter } from 'expo-router';
+import { Text, TouchableOpacity, View } from 'react-native';
 
 
 export default function HomeScreen() {
+  const router = useRouter();
     const tours = ['wel','chr','ack']
   return (
     <View 
@@ -12,7 +13,7 @@ export default function HomeScreen() {
         backgroundColor:'lightgrey'
     }}>
       <Text>Hllo</Text>
-      <TouchableOpacity onPress={()=>{router.push('/home/')}}>
+      <TouchableOpacity onPress={()=>router.push('/home')}>
         <Text>view tours</Text>
       </TouchableOpacity>
     </View>
